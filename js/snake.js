@@ -318,7 +318,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
         * @method rebirth
         */   
         me.rebirth = function() {
-            isDead = false;
+            isDead = true;
         };
         
         /**
